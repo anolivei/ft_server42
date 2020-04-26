@@ -1,7 +1,7 @@
 # Server42
 Discovering Docker and setting up my first web server
 
-<b>Comandos Docker<b>
+<h1>Comandos Docker
 
 Docker build -t nome_imagem .
 
@@ -15,30 +15,28 @@ Docker run --name nome_container -it -p 80:80 -p 443:443 nome_imagem
 Port 80 : http
 Port 443 : https
 
-Docker container ls -a
-
+Docker container ls -a :
 Para ver a lista de containers criados
 
-Docker image
-
+Docker image :
 Para ver a lista de imagens criadas
 
-Docker rm nome_container
+Docker rm nome_container :
+Remove container
 
-Docker rmi nome_imagem
+Docker rmi nome_imagem :
+Remove imagem
 
-Remove container e imagem
-
-Docker kill nome_container
-
+Docker kill nome_container :
 Para desligar o seu container
 
-<b>Obs:<b>
-Diferenca entre Run e cmd : run executado durante a criacao da imagem, cmd executado depois que a imagem foi criada.
-127.0.0.1 : e o endereco do protocolo de Internet de loopback (IP) tambem referido como localhost .
-O endereco e usado para estabelecer uma conexao IP com a mesma maquina ou computador que esta sendo usado pelo usuario final.
+<h3>Obs:
+Diferença entre Run e cmd : run executado durante a criacao da imagem, cmd executado depois que a imagem foi criada.
 
-<b>Links Úteis<b>
+127.0.0.1 : e o endereço do protocolo de Internet de loopback (IP) tambem referido como localhost .
+O endereço é usado para estabelecer uma conexão IP com a mesma máquina ou computador que está sendo usado pelo usuário final.
+
+<h1>Links Úteis
 Docker Documentation
 <a>https://docs.docker.com/get-started/
 
@@ -73,10 +71,10 @@ Wordpress wp-config-sample.php
 SSL Certificate
 <a>https://codefresh.io/docker-tutorial/using-docker-generate-ssl-certificates/
  
-Explicacao geral (em ingles)
+Explicação geral (em ingles)
 <a>https://www.linuxbabe.com/debian/install-lemp-stack-debian-10-buster
 
-Explicacao geral (em frances)
+Explicação geral (em frances)
 <a>https://beauvais.me/creer-serveur-web-nginx-php7-maria-db-mysql-debian-9-stretch/
 
 ![docker-gif-3](https://user-images.githubusercontent.com/59845902/80297303-46a03e00-8758-11ea-93c6-805c0d36066b.gif)
