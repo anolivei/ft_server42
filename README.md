@@ -30,8 +30,8 @@ Para desligar o seu container<br>
 
 <h3>Obs:<br>
 <h6>Diferença entre Run e cmd : run executado durante a criacao da imagem, cmd executado depois que a imagem foi criada.<br>
-127.0.0.1 : e o endereço do protocolo de Internet de loopback (IP) tambem referido como localhost.<br>
 <br>
+127.0.0.1 : e o endereço do protocolo de Internet de loopback (IP) tambem referido como localhost.<br>
 O endereço é usado para estabelecer uma conexão IP com a mesma máquina ou computador que está sendo usado pelo usuário final.<br>
 
 <h1>Links Úteis
