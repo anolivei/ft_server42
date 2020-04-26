@@ -1,7 +1,7 @@
 # Server42
 Discovering Docker and setting up my first web server
 
-<b>Comandos Docker
+<b>Comandos Docker<b>
 
 Docker build -t nome_imagem .
 
@@ -33,12 +33,12 @@ Docker kill nome_container
 
 Para desligar o seu container
 
-<b>Obs:
+<b>Obs:<b>
 Diferenca entre Run e cmd : run executado durante a criacao da imagem, cmd executado depois que a imagem foi criada.
 127.0.0.1 : e o endereco do protocolo de Internet de loopback (IP) tambem referido como localhost .
 O endereco e usado para estabelecer uma conexao IP com a mesma maquina ou computador que esta sendo usado pelo usuario final.
 
-<b>Links Uteis
+<b>Links Úteis<b>
 Docker Documentation
 <a>https://docs.docker.com/get-started/
 
