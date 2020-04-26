@@ -4,11 +4,11 @@ Discovering Docker and setting up my first web server
 <h1>Comandos Docker
 
 <h6>Docker build -t nome_imagem .<br>
--t :dá um nome para a imagem<br>
+-t : cria um nome para a imagem<br>
 . : a imagem sera salva no mesmo lugar onde o comando e executado<br>
 <br>
 Docker run --name nome_container -it -p 80:80 -p 443:443 nome_imagem<br>
---name : da um nome para o container<br>
+--name : cria um nome para o container<br>
 -p : mapeia as portas “port 80:80” e “port 443:443” para o localhost<br>
 Port 80: http<br>
 Port 443: https<br>
