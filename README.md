@@ -6,7 +6,7 @@ Discovering Docker and setting up my first web server
 <h6>Docker build -t nome_imagem .<br>
 -t Name and optionally a tag in the ‘name:tag’ format<br>
 . : a imagem sera salva no mesmo lugar onde o comando e executado<br>
-
+<br>
 Docker run --name nome_container -it -p 80:80 -p 443:443 nome_imagem<br>
 --name : Assign a name to the container<br>
 -p : mapping the “port 8080” of our local machine and the “port 443443” of our local machine<br>
