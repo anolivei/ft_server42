@@ -6,7 +6,7 @@
 #    By: anolivei <anolivei@student.42sp.org>       +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/04/25 14:23:46 by anolivei          #+#    #+#              #
-#    Updated: 2020/04/26 02:17:58 by anolivei         ###   ########.fr        #
+#    Updated: 2020/04/26 02:49:28 by anolivei         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -37,7 +37,7 @@ openssl req -x509 -nodes -days 365 -newkey rsa:2048 \
 	-keyout /etc/ssl/certs/localhost.key -out /etc/ssl/certs/localhost.crt
 
 # Cria a DATABASE e seta uma senha de acesso para o Wordpress
-echo "CREATE DATABASE anolivei DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci;" | mysql -u root
+echo "CREATE DATABASE wordpress DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci;" | mysql -u root
 mysqladmin --user=root password ""
 
 # Instalando Wordpress
