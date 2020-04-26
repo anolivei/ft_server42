@@ -5,7 +5,7 @@ Discovering Docker and setting up my first web server
 
 <h6>Docker build -t nome_imagem .
 
--t Name and optionally a tag in the ‘name:tag’ format
+-t Name and optionally a tag in the ‘name:tag’ format<br>
 . : a imagem sera salva no mesmo lugar onde o comando e executado
 
 Docker run --name nome_container -it -p 80:80 -p 443:443 nome_imagem
