@@ -8,10 +8,10 @@ Discovering Docker and setting up my first web server
 . : a imagem sera salva no mesmo lugar onde o comando e executado<br>
 <br>
 Docker run --name nome_container -it -p 80:80 -p 443:443 nome_imagem<br>
---name : Assign a name to the container<br>
--p : mapping the “port 8080” of our local machine and the “port 443443” of our local machine<br>
-Port 80 : http<br>
-Port 443 : https<br>
+--name : da um nome para o container<br>
+-p : mapeia as portas “port 8080” e “port 443:443” para o localhost<br>
+Port 80: http<br>
+Port 443: https<br>
 <br>
 Docker container ls -a<br>
 Para ver a lista de containers criados<br>
