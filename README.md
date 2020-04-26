@@ -3,7 +3,7 @@ Discovering Docker and setting up my first web server
 
 <h1>Comandos Docker
 
-Docker build -t nome_imagem .
+<h4>Docker build -t nome_imagem .
 
 -t Name and optionally a tag in the ‘name:tag’ format
 . : a imagem sera salva no mesmo lugar onde o comando e executado
@@ -31,13 +31,14 @@ Docker kill nome_container :
 Para desligar o seu container
 
 <h3>Obs:
-Diferença entre Run e cmd : run executado durante a criacao da imagem, cmd executado depois que a imagem foi criada.
+<h4>Diferença entre Run e cmd : run executado durante a criacao da imagem, cmd executado depois que a imagem foi criada.
 
 127.0.0.1 : e o endereço do protocolo de Internet de loopback (IP) tambem referido como localhost .
 O endereço é usado para estabelecer uma conexão IP com a mesma máquina ou computador que está sendo usado pelo usuário final.
 
 <h1>Links Úteis
-Docker Documentation
+ 
+<h4>Docker Documentation
 <a>https://docs.docker.com/get-started/
 
 Explaining Dockerfile
