@@ -12,7 +12,7 @@ Docker run --name nome_container -it -p 80:80 -p 443:443 nome_imagem<br>
 -p : mapping the “port 8080” of our local machine and the “port 443443” of our local machine<br>
 Port 80 : http<br>
 Port 443 : https<br>
-
+<br>
 Docker container ls -a<br>
 Para ver a lista de containers criados<br>
 
