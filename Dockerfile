@@ -6,7 +6,7 @@
 #    By: anolivei <anolivei@student.42sp.org>       +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/04/16 20:31:32 by anolivei          #+#    #+#              #
-#    Updated: 2020/04/25 17:24:01 by anolivei         ###   ########.fr        #
+#    Updated: 2020/04/26 01:57:28 by anolivei         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -29,7 +29,7 @@ RUN printf "#!/bin/sh\nexit 0" > /usr/sbin/policy-rc.d
 RUN apt-get update && \
 	apt-get install -y --no-install-recommends apt-utils && \
 	apt-get -y install wget && \
-	bash /root/ft_server-config.sh
+	bash /root/server-config.sh
 
 # Inicia o nginx, o mysql e o php (no arquivo start.sh)
 ENTRYPOINT bash /root/start.sh
