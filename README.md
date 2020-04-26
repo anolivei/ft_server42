@@ -38,8 +38,7 @@ O endereço é usado para estabelecer uma conexão IP com a mesma máquina ou co
 
 <h1>Links Úteis
  
-<h6>Docker Documentation
-<a>https://docs.docker.com/get-started/
+<h6>Docker Documentation <a>https://docs.docker.com/get-started/
 
 Explaining Dockerfile
 <a>https://www.youtube.com/watch?v=LQjaJINkQXY
