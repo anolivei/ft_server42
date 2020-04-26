@@ -15,16 +15,16 @@ Port 443 : https<br>
 <br>
 Docker container ls -a<br>
 Para ver a lista de containers criados<br>
-
+<br>
 Docker image<br>
 Para ver a lista de imagens criadas<br>
-
+<br>
 Docker rm nome_container<br>
 Remove container<br>
-
+<br>
 Docker rmi nome_imagem<br>
 Remove imagem<br>
-
+<br>
 Docker kill nome_container<br>
 Para desligar o seu container<br>
 
