@@ -69,6 +69,5 @@ https://www.linuxbabe.com/debian/install-lemp-stack-debian-10-buster
 
 Explicacao geral (em frances)
 https://beauvais.me/creer-serveur-web-nginx-php7-maria-db-mysql-debian-9-stretch/
-![docker-gif-3]
 
-(https://user-images.githubusercontent.com/59845902/80297303-46a03e00-8758-11ea-93c6-805c0d36066b.gif)
+![docker-gif-3](https://user-images.githubusercontent.com/59845902/80297303-46a03e00-8758-11ea-93c6-805c0d36066b.gif)
