@@ -30,9 +30,10 @@ Para desligar o seu container<br>
 <br>
 <h3>Obs:<br>
 <h6> 
-Para alterar o autoindex, executar o seguinte comando na tela onde o container está rodando:<br>
+Para alterar o autoindex, executar o seguinte comando no terminal (onde o container está rodando):<br>
 bash root/autoindex.sh<br>
-Acessar o endereço 127.0.0.1 ou localhost no terminal: endereço do protocolo de Internet de loopback (IP) tambem referido como localhost. O endereço é usado para estabelecer uma conexão IP com a mesma máquina ou computador que está sendo usado pelo usuário final.<br>
+<br>
+Acessar o endereço 127.0.0.1 ou localhost no navegador, que é o endereço do protocolo de Internet de loopback (IP). O endereço é usado para estabelecer uma conexão IP com a mesma máquina ou computador que está sendo usado pelo usuário final.<br>
 <br>
 <h1>Links Úteis
 
