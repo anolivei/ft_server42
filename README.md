@@ -27,15 +27,15 @@ Remove imagem<br>
 <br>
 Docker kill nome_container<br>
 Para desligar o seu container<br>
-
-<h3>Obs:<br>
-<h6>Diferença entre Run e cmd : run executado durante a criacao da imagem, cmd executado depois que a imagem foi criada.<br>
 <br>
-127.0.0.1 : e o endereço do protocolo de Internet de loopback (IP) tambem referido como localhost.<br>
-O endereço é usado para estabelecer uma conexão IP com a mesma máquina ou computador que está sendo usado pelo usuário final.<br>
-
+<h3>Obs:<br>
+<h6> 
+Para alterar o autoindex, executar o seguinte comando na tela onde o container está rodando:<br>
+bash root/autoindex.sh<br>
+Acessar o endereço 127.0.0.1 ou localhost no terminal: endereço do protocolo de Internet de loopback (IP) tambem referido como localhost. O endereço é usado para estabelecer uma conexão IP com a mesma máquina ou computador que está sendo usado pelo usuário final.<br>
+<br>
 <h1>Links Úteis
- 
+
 <h6> 
 
 Docker Documentation<br>
