@@ -34,6 +34,9 @@ Para alterar o autoindex, executar o seguinte comando no terminal (onde o contai
 bash root/autoindex.sh<br>
 <br>
 Acessar o endereço 127.0.0.1 ou localhost no navegador, que é o endereço do protocolo de Internet de loopback (IP). O endereço é usado para estabelecer uma conexão IP com a mesma máquina ou computador que está sendo usado pelo usuário final.<br>
+Na VMLinux da 42, o nginx da própria VM esta ocupando a porta 80:80.<br>
+Para verificar os serviços ligados (+) e desligados (-): service --status-all<br>
+Se o nginx estiver ligado: service nginx stop<br>
 <br>
 <h1>Links Úteis
 
