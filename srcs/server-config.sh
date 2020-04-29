@@ -6,11 +6,11 @@
 #    By: anolivei <anolivei@student.42sp.org>       +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/04/25 14:23:46 by anolivei          #+#    #+#              #
-#    Updated: 2020/04/26 02:49:28 by anolivei         ###   ########.fr        #
+#    Updated: 2020/04/29 02:12:25 by anolivei         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-# Instala o certificado ssl, sql, nginx, php e modulos php
+# Instala o certificado ssl, sql mariadb, nginx, php e modulos php
 apt-get install -y openssl \
 	mariadb-server \
 	nginx \
@@ -36,7 +36,7 @@ openssl req -x509 -nodes -days 365 -newkey rsa:2048 \
 	-subj '/C=BR/ST=SP/L=SP/O=42SP/CN=anolivei' \
 	-keyout /etc/ssl/certs/localhost.key -out /etc/ssl/certs/localhost.crt
 
-# Cria a DATABASE e seta uma senha de acesso para o Wordpress
+# Cria a DATABASE e seta uma senha de acesso para o Wordpress (sem senha)
 echo "CREATE DATABASE wordpress DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci;" | mysql -u root
 mysqladmin --user=root password ""
 
