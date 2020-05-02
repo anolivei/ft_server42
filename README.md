@@ -1,4 +1,4 @@
-# Server42
+# ft_server42
 Discovering Docker and setting up my first web server
 
 <h1>Comandos Docker
