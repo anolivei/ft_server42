@@ -3,7 +3,7 @@ Discovering Docker and setting up my first web server.
 
 <h1>Comandos Docker
 
-<h6>**docker build -t nome_imagem .**<br>
+<h6>docker build -t nome_imagem .<br>
 -t : cria um nome para a imagem<br>
 . : a imagem será salva no mesmo lugar onde o comando e executado<br>
 <br>
