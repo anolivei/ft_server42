@@ -3,29 +3,34 @@ Discovering Docker and setting up my first web server.
 
 <h1>Comandos Docker
 
-<h6>Docker build -t nome_imagem .<br>
+<h6>**docker build -t nome_imagem .**<br>
 -t : cria um nome para a imagem<br>
 . : a imagem será salva no mesmo lugar onde o comando e executado<br>
 <br>
-Docker run --name nome_container -it -p 80:80 -p 443:443 nome_imagem<br>
+docker run --name nome_container -it -p 80:80 -p 443:443 nome_imagem<br>
 --name : cria um nome para o container<br>
 -p : mapeia as portas “port 80:80” e “port 443:443” para o localhost<br>
 Port 80: http<br>
 Port 443: https<br>
 <br>
-Docker container ls -a<br>
+docker container ls -a<br>
 Para ver a lista de containers criados<br>
 <br>
-Docker image<br>
+docker image<br>
 Para ver a lista de imagens criadas<br>
 <br>
-Docker rm nome_container<br>
+docker rm nome_container<br>
 Remove container<br>
 <br>
-Docker rmi nome_imagem<br>
+docker rm $(docker ps -aq)<br>
+Remove todos os containers existentes<br>
+<br>
+docker rmi nome_imagem<br>
 Remove imagem<br>
 <br>
-Docker kill nome_container<br>
+docker rmi $(docker images -q)<br>
+Remove todas as imagens<br>
+docker kill nome_container<br>
 Para desligar o seu container<br>
 <br>
 <h3>Obs:<br>
