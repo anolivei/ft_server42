@@ -30,6 +30,7 @@ Remove imagem<br>
 <br>
 docker rmi $(docker images -q)<br>
 Remove todas as imagens<br>
+<br>
 docker kill nome_container<br>
 Para desligar o seu container<br>
 <br>
