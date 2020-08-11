@@ -16,7 +16,7 @@ Port 443: https<br>
 docker container ls -a<br>
 Para ver a lista de containers criados<br>
 <br>
-docker image<br>
+docker images<br>
 Para ver a lista de imagens criadas<br>
 <br>
 docker rm nome_container<br>
