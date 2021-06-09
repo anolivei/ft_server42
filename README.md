@@ -4,7 +4,7 @@ Discovering Docker and setting up my first web server
 ## Comandos Docker
 
 - Para criar uma imagem:
-```
+```shell
 docker build -t nome_imagem .
 ```
 onde:<br>
@@ -12,7 +12,7 @@ onde:<br>
 . : a imagem será salva no mesmo lugar onde o comando e executado<br>
 <br>
 - Para criar um container:
-```
+```shell
 docker run --name nome_container -it -p 80:80 -p 443:443 nome_imagem
 ```
 onde:<br>
@@ -22,49 +22,49 @@ Port 80: http<br>
 Port 443: https<br>
 <br>
 - Para ver a lista de containers criados:<br>
-```
+```shell
 docker container ls -a
 ```
 
 - Para ver a lista de imagens criadas:<br>
 
-```
+```shell
 docker images
 ```
 
 - Para remover um container:<br>
 
-```
+```shell
 docker rm nome_container
 ```
 
 - Para remover todos os containers existentes:<br>
 
-```
+```shell
 docker rm $(docker ps -aq)
 ```
 
 - Para remover uma imagem:<br>
 
-```
+```shell
 docker rmi nome_imagem
 ```
 
 - Para remover todas as imagens existentes:<br>
 
-```
+```shell
 docker rmi $(docker images -q)
 ```
 
 - Para desligar o seu container:<br>
 
-```
+```shell
 docker kill nome_container
 ```
 
 ## Observações<br>
 - Para alterar o autoindex, executar o seguinte comando no terminal (onde o container está rodando):
-```
+```bash
  bash root/autoindex.sh
 ```
 Acessar o endereço 127.0.0.1 ou localhost no navegador, que é o endereço do protocolo de Internet de loopback (IP).<br> 
@@ -72,11 +72,11 @@ O endereço é usado para estabelecer uma conexão IP com a mesma máquina ou co
 <br>
 Na VMLinux da 42, o nginx da própria VM está ocupando a porta 80:80.<br>
 - Para verificar os serviços ligados (+) e desligados (-): 
-```
+```shell
 service --status-all
 ```
 - Se o nginx estiver ligado: 
-```
+```shell
 service nginx stop
 ```
 
